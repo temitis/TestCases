@@ -11,4 +11,3 @@ driver.find_element_by_id("password").click()
 driver.find_element_by_id("password").clear()
 driver.find_element_by_id("password").send_keys("123456")
 driver.find_element_by_name("action").click()
-
