@@ -1,0 +1,14 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+driver = webdrive.Firefox()
+driver.get("https://login.vixen.com/i/tushyraw/login")
+driver.find_element_by_id("username").click()
+driver.find_element_by_id("username").clear()
+driver.find_element_by_id("username").send_keys("xxxxx@gmail.com")
+driver.find_element_by_id("password").click()
+driver.find_element_by_id("password").clear()
+driver.find_element_by_id("password").send_keys("123456")
+driver.find_element_by_name("action").click()
+
